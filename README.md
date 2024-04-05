@@ -1,6 +1,8 @@
 # NcVV
 CPU, CUDA, and GPU
 Program Structure 
+
+```
 #include <stdio.h>
 
 
@@ -11,3 +13,7 @@ printf("From CPU!!\n");
 
 
 }
+
+```
+
+---
