@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+// CUDA kernel to print a greeting message
+__global__void cuda_greetings(){
+    printf("Where are the greetings\n")
+}
+
+int main() {
+    cuda<<<1,1>>>();
+    return 0;
+
+}
+
+
